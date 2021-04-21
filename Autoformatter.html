@@ -1,67 +1,8 @@
 <!DOCTYPE html>
 <html>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<body>
-
-	<h1>MoM Auto Formatter</h1>
-
-	<form id="input">
-		<fieldset>
-        	<legend>Type of Proposal</legend>
-            Category:
-            <select id="category" name="category">
-            	<option value="llama-drama">Llama Drama</option>
-                <option value="the-southern-journal">The Southern Journal</option>
-                <option value="the-southern-onion">The Southern Onion</option>
-            </select>
-            <br>Title:
-            <br><input type="text" id="title">
-            <br>Author:
-            <br><input type="text" id="author">
-            <br>Text:
-            <br><textarea id="text" style="height:200px;"></textarea>
-        </fieldset>
-		<button type="button" id="generate-button" onclick="generate()">Generate</button><button type="button" id="reset" onclick="reset()">Reset</button>
-	</form>	
-    <hr />
-            
-  <p>Generated dispatch code: 
-  <div id="output"></div>
-  <p/>
-    <script>
-var generateButton = document.getElementById('generate-button');
-		function a(html) { $("#output").append(html); }
-        function generate() {
-        $("#output").empty(); 
-            a("<h2>Body Text</h2>");
-			a("[anchor=Top][/anchor][box][align=center]");
-            if ($("#category").val() == "llama-drama") {
-				a("[background-block=#0080C4][font=Avenir, Segoe UI][size=120][color=#0080C4]—[/color]<br>[color=#0080C4]—[/color][/size][/font][/background-block]<br>[background-block=#019AED][url=#Top[img]https://i.imgur.com/E9aYtnE.png?1[/img]<br>[font=Avenir, Segoe UI][size=480][color=#FFFFFF][b]Llama Drama[/b][/color][/size][size=250][color=#FFFFFF]The Latest News in the South Pacific and Beyond[/color][/size][/font][/url]<br>[color=#019AED]·[/color][/background-block]<br>[background-block=#0080C4][font=Avenir, Segoe UI][size=120[color=#0080C4]—[/color]<br>[color=#0080C4]—[/color][/size][/font][/background-block[/align][/box]");
-            } else if ($("#category").val() == "the-southern-journal") {
-            a("[background-block=#0080C4][font=Avenir, Segoe UI][size=120][color=#0080C4]—[/color]<br>[color=#0080C4]—[/color][/size][/font][/background-block]<br>[background-block=#FFFFFF]<br>[color=#019AED]·[/color]<br>[img]https://i.imgur.com/1G8yomW.png[/img][font=Avenir, Segoe UI][size=480][color=109AED][b]The Southern Journal[/b][/color][/size]<br>[size=250][color=#38B9FF]The Official News Outlet of the South Pacific[/color][/size][/font]<br>[color=#019AED]·[/color][/background-block]<br>[background-block=#0080C4][font=Avenir, Segoe UI][size=120][color=#0080C4]—[/color]<br>[color=#0080C4]—[/color][/size][/font][/background-block][/align][/box]");
-            } else if ($("#category").val() == "the-southern-onion") {
-                      a("[img]https://i.imgur.com/xtMra3w.png[/img][/align][/box]");
-            } else {
-            a("[img]https://i.imgur.com/xtMra3w.png[/img][/align][/box]");       
-            }
-            a("<br>[font=Avenir, Segoe UI][box][align=center][size=250]");
-             if ($("#category").val() == "llama-drama") {
-            		a("[color=#FF9900]" + $("#title").val() + "[/color][/font][/size]");
-           } else if ($("#category").val() == "the-southern-journal") {
-            		a("[color=#FF9900]" + $("#title").val() + "[/color][/font][/size]");
-           } else if ($("#category").val() == "the-southern-onion") {
-            		a("[color=#880088]" + $("#title").val() + "[/color][/font][/size]");
-           } else {
-            		a("dijon mustard");               
-          }
-            a("<br>[font=Avenir, Segoe UI][size=120][i]By [nation]" + $("#author").val() + "[/nation][/i][/font][/size][/align]");
-            
-           a("<br>[align=justify][font=Avenir, Segoe UI][size=120]" + $("#text").val() + "[/size][/font][/align][/box]");
-           };
-          function reset() {
-			$('#input').reset();
-			$('#output').empty();
-		} 
-	</script>  
-<body />
-<html />
+<head>
+	<meta http-equiv="refresh" content="1000; url=/MoM/autoformatter.html" />      
+	<meta http-equiv="refresh" content="0; url=/MoM/autoformatter.html" />      
+    <link rel="canonical" href="/MoM/autoformatter.html" />  
+	<title> Autoformatter [Redirect]</title>
+</head>
