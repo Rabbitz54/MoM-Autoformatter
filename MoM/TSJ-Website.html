@@ -124,12 +124,27 @@ body {
   </div>
 </div>
 
-<div style="padding-left:16px">
- <div style="padding-left:0px">
-  
+<style>
+  * {
+  box-sizing: border-box;
+}  
+  .column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px;
+  }
+  .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+  </style>
 <div class="row">
   <div class="column" style="background-color:#aaa;">
-    <h2><style>
+    <h2>
+      <style>
+        
 a {
    text-decoration: none;
    color: black; 
